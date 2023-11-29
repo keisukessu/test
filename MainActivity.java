@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 class MainActivity extends AppCompatActivity {
     // private MySurfaceView mySu rfaceV i e w;
     private ImageButton Lbutton,Rbutton,
+    // keisuke
 
     public static Button restart_button;System.out.println("keisuke");
     @Override
