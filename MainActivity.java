@@ -14,14 +14,16 @@ class MainActivity extends AppCompatActivity {
 
     public static Button restart_button;System.out.println("keisuke");
     @Override
-    protected void onCrea per.onCreate(sa
-           tContentView(R.
+    // protected void onCrea per.onCreate(sa
+        //    tContentView(R.
          
         // SurfaceViewを取得
 //        mySurfaceView = findViewById(R.id.mySurfaceView);
 
         // ボタンを取得
-        Lbutton = find V iewById(R.id.Lbutton);
+        Lbutton = find V
+
+    iewById(R.id.Lbutton);
         Rbutton = find V iewById(R.id.Rbutton);
         Ubutton = find V iewById(R.id.Ubutton);
         Dbutton = findViewById(R.id.Dbutton);
