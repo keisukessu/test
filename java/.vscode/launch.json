@@ -1,0 +1,420 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "Dai11.HelloWorld",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai11_2",
+            "request": "launch",
+            "mainClass": "Dai11.kadai11_2",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai11_3",
+            "request": "launch",
+            "mainClass": "Dai11.kadai11_3",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai11_4",
+            "request": "launch",
+            "mainClass": "Dai11.kadai11_4",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai11_5",
+            "request": "launch",
+            "mainClass": "Dai11.kadai11_5",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai11_6",
+            "request": "launch",
+            "mainClass": "Dai11.kadai11_6",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex1001",
+            "request": "launch",
+            "mainClass": "Ex1001",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex1002",
+            "request": "launch",
+            "mainClass": "Ex1002",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex1104",
+            "request": "launch",
+            "mainClass": "Ex1104",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "StringSort",
+            "request": "launch",
+            "mainClass": "StringSort",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEX0102",
+            "request": "launch",
+            "mainClass": "TestEX0102",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEX0103",
+            "request": "launch",
+            "mainClass": "TestEX0103",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEX0104",
+            "request": "launch",
+            "mainClass": "TestEX0104",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEX0105",
+            "request": "launch",
+            "mainClass": "TestEX0105",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx1003",
+            "request": "launch",
+            "mainClass": "TestEx1003",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx1004",
+            "request": "launch",
+            "mainClass": "TestEx1004",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx1005",
+            "request": "launch",
+            "mainClass": "TestEx1005",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx1103",
+            "request": "launch",
+            "mainClass": "TestEx1103",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Complex$kadai13_4",
+            "request": "launch",
+            "mainClass": "proen1.Complex$kadai13_4",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "FileTest",
+            "request": "launch",
+            "mainClass": "proen1.FileTest",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai12_1",
+            "request": "launch",
+            "mainClass": "proen1.kadai12_1",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai12_2",
+            "request": "launch",
+            "mainClass": "proen1.kadai12_2",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai12_3",
+            "request": "launch",
+            "mainClass": "proen1.kadai12_3",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai12_4",
+            "request": "launch",
+            "mainClass": "proen1.kadai12_4",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai12_5",
+            "request": "launch",
+            "mainClass": "proen1.kadai12_5",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai12_6",
+            "request": "launch",
+            "mainClass": "proen1.kadai12_6",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai13_1",
+            "request": "launch",
+            "mainClass": "proen1.kadai13_1",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai13_2",
+            "request": "launch",
+            "mainClass": "proen1.kadai13_2",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai13_3",
+            "request": "launch",
+            "mainClass": "proen1.kadai13_3",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai13_6",
+            "request": "launch",
+            "mainClass": "proen1.kadai13_6",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai14_1",
+            "request": "launch",
+            "mainClass": "proen1.kadai14_1",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai14_2",
+            "request": "launch",
+            "mainClass": "proen1.kadai14_2",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai14_3",
+            "request": "launch",
+            "mainClass": "proen1.kadai14_3",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai14_5",
+            "request": "launch",
+            "mainClass": "proen1.kadai14_5",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "kadai14_6",
+            "request": "launch",
+            "mainClass": "proen1.kadai14_6",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex0201Wrapper",
+            "request": "launch",
+            "mainClass": "proen2.homework2.Ex0201Wrapper",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex0202",
+            "request": "launch",
+            "mainClass": "proen2.homework2.Ex0202",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex0203",
+            "request": "launch",
+            "mainClass": "proen2.homework2.Ex0203",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex0204",
+            "request": "launch",
+            "mainClass": "proen2.homework2.Ex0204",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0205",
+            "request": "launch",
+            "mainClass": "proen2.homework2.TestEx0205",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0206",
+            "request": "launch",
+            "mainClass": "proen2.homework2.TestEx0206",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0207",
+            "request": "launch",
+            "mainClass": "proen2.homework2.TestEx0207",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0208",
+            "request": "launch",
+            "mainClass": "proen2.homework2.TestEx0208",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0209",
+            "request": "launch",
+            "mainClass": "proen2.homework2.TestEx0209",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0304",
+            "request": "launch",
+            "mainClass": "proen2.homework3.TestEx0304",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0305",
+            "request": "launch",
+            "mainClass": "proen2.homework3.TestEx0305",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0306",
+            "request": "launch",
+            "mainClass": "proen2.homework3.TestEx0306",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0307",
+            "request": "launch",
+            "mainClass": "proen2.homework3.TestEx0307",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0404",
+            "request": "launch",
+            "mainClass": "proen2.homework4.TestEx0404",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0405",
+            "request": "launch",
+            "mainClass": "proen2.homework4.TestEx0405",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0505_8",
+            "request": "launch",
+            "mainClass": "proen2.homework5.TestEx0505_8",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "IntBinTree",
+            "request": "launch",
+            "mainClass": "proen2.homework6.IntBinTree",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "StudentBinTree",
+            "request": "launch",
+            "mainClass": "proen2.homework6.StudentBinTree",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "proen2.homework7.BinarySearch",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "Ex0703",
+            "request": "launch",
+            "mainClass": "proen2.homework7.Ex0703",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "proen2.homework7.LinearSearch",
+            "projectName": "java_52335924"
+        },
+        {
+            "type": "java",
+            "name": "TestEx0803",
+            "request": "launch",
+            "mainClass": "proen2.homework8.TestEx0803",
+            "projectName": "java_52335924"
+        }
+    ]
+}
