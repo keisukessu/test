@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
     const width = 500;
     const height = 500;
+    const group = new THREE.Group();
 
     // レンダラーを作成 
     const renderer = new THREE.WebGLRenderer({
@@ -16,17 +17,26 @@ function init() {
 
     // カメラを作成 
     const camera = new THREE.PerspectiveCamera(45, width / height);
-    camera.position.set(0, 0, -70);
+    camera.position.set(0, 0, -140);
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 
+    //マテリアル作成
     const bodyMat = new THREE.MeshStandardMaterial({
         color: 0xaaaaaa
     });
     const highlight = new THREE.MeshStandardMaterial({
         color: 0x4444ff
     });
+    const red = new THREE.MeshStandardMaterial({
+        color: 0xff0000
+    });
+    const white = new THREE.MeshStandardMaterial({
+        color: 0xffffff
+    });
 
-
+    var axes = new THREE.AxisHelper(25);
+    scene.add(axes);
+    //メッシュ作成
     const head = new THREE.Mesh(new THREE.BoxGeometry(20, 16, 16), bodyMat);
     scene.add(head);
 
@@ -42,6 +52,37 @@ function init() {
     mouse.position.set(0, -3, -8);
     mouse.rotation.set(Math.PI / 2, Math.PI, 0);
     scene.add(mouse);
+
+    const ear1 = new THREE.Mesh(new THREE.BoxGeometry(5, 8, 5), highlight);
+    ear1.position.set(10, 0, 0);
+    scene.add(ear1);
+
+    const ear2 = new THREE.Mesh(new THREE.BoxGeometry(5, 8, 5), highlight);
+    ear2.position.set(-10, 0, 0);
+    scene.add(ear2);
+
+    const body = new THREE.Mesh(new THREE.BoxGeometry(30, 32, 16), red);
+    body.position.set(0, -24, 0);
+    scene.add(body);
+
+    const leg1 = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 16), white);
+    leg1.position.set(5, -48, 8);
+    scene.add(leg1);
+
+    const leg2 = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 16), white);
+    leg2.position.set(-5, -48, 8);
+    scene.add(leg2);
+
+    const arm1 = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 22), white);
+    arm1.position.set(18, -24, 0);
+    arm1.rotation.set(0, 0, Math.PI / 6);
+    scene.add(arm1);
+
+    const arm2 = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 22), white);
+    arm2.position.set(-18, -24, 0);
+    arm2.rotation.set(0, 0, -Math.PI / 6);
+    scene.add(arm2);
+    //group.add(head, eye1, eye2, mouse, ear1, ear2);
 
 
     //光源設定

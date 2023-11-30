@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
     const width = 500;
     const height = 500;
+    const group = new THREE.Group();
 
     // レンダラーを作成 
     const renderer = new THREE.WebGLRenderer({
@@ -42,6 +43,16 @@ function init() {
     mouse.position.set(0, -3, -8);
     mouse.rotation.set(Math.PI / 2, Math.PI, 0);
     scene.add(mouse);
+
+    const ear1 = new THREE.Mesh(new THREE.BoxGeometry(5, 8, 5), highlight);
+    ear1.position.set(10, 0, 0);
+    scene.add(ear1);
+
+    const ear2 = new THREE.Mesh(new THREE.BoxGeometry(5, 8, 5), highlight);
+    ear2.position.set(-10, 0, 0);
+    scene.add(ear2);
+
+    group.add(head, eye1, eye2, mouse, ear1, ear2);
 
 
     //光源設定
