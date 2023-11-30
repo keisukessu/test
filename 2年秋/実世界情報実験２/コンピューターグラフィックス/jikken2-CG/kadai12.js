@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
     const width = 500;
     const height = 500;
-    const group = new THREE.Group();
+    const face = new THREE.Group();
     let flag_rotation = 0;
     let count_rotation = 0;
     // レンダラーを作成 
@@ -84,7 +84,8 @@ function init() {
     arm2.position.set(-18, -24, 0);
     arm2.rotation.set(0, 0, -Math.PI / 6);
     scene.add(arm2);
-    //group.add(head, eye1, eye2, mouse, ear1, ear2);
+    face.add(head, eye1, eye2, mouse, ear1, ear2);
+    scene.add(face);
 
     document.addEventListener("keydown", onDocumentKeyDown, false);
     function onDocumentKeyDown(event_k) {
@@ -100,18 +101,14 @@ function init() {
         if (count_rotation >= 2 * Math.PI) {
             count_rotation = 0;
             flag_rotation = 0;
+            face.rotation.set(0, 0, 0);
         }
         else if (flag_rotation == 1) {
             let requestId = requestAnimationFrame(animate);
-            head.rotation.y += 0.1;
-            eye1.rotation.y += 0.1;
-            eye2.rotation.y += 0.1;
-            mouse.rotation.y += 0.1;
-            ear1.rotation.y += 0.1;
-            ear2.rotation.y += 0.1;
+            face.rotation.y += 0.1;
             count_rotation += 0.1;
-            render();
         }
+        render();
     }
 
     //光源設定
