@@ -1,10 +1,13 @@
-r_x = 5; %ロボットのx座標
-r_y = 5; %ロボットのy座標
-r_theta = 0; %ロボットの角度（向き、rad）
-
 figure
 
-drawrobot(r_x, r_y, r_theta) %ロボットを描画
+drawrobot(3,2,pi/6)
+hold on
+drawrobot(7,7,pi)
+hold on
+drawrobot(4,8.3,-pi/2)
+hold on
+drawrobot(6.3,3.8,pi/3)
+hold on
 
 axis([0 10 0 10])
 axis square
