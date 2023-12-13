@@ -36,8 +36,8 @@ function init() {
         color: 0xffffff
     });
 
-    var axes = new THREE.AxisHelper(25);
-    scene.add(axes);
+    // var axes = new THREE.AxisHelper(25);
+    // scene.add(axes);
     //メッシュ作成
     const head = new THREE.Mesh(new THREE.BoxGeometry(20, 16, 16), bodyMat);
     scene.add(head);

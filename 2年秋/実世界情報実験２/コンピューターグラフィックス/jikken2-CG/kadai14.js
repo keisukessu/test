@@ -5,10 +5,6 @@ function init() {
     const width = 500;
     const height = 500;
     const robot = new THREE.Group();
-    let flag_positionX = 0;
-    let flag_positionY = 0;
-    let count_positionX = 0;
-    let count_positionY = 0;
     // レンダラーを作成 
     const renderer = new THREE.WebGLRenderer({
         canvas: document.querySelector("#myCanvas")
@@ -38,8 +34,8 @@ function init() {
         color: 0xffffff
     });
 
-    var axes = new THREE.AxisHelper(25);
-    scene.add(axes);
+    // var axes = new THREE.AxisHelper(25);
+    // scene.add(axes);
     //メッシュ作成
     const head = new THREE.Mesh(new THREE.BoxGeometry(20, 16, 16), bodyMat);
     scene.add(head);
